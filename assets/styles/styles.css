@@ -4,7 +4,7 @@
 
 body, html {
 	/*background: linear-gradient(170deg, #e6e8ed 0%, rgba(151, 171, 172, 0.84) 100%);*/
-	 background-color: rgba(151, 171, 172, 0.84);
+	 background-color: rgba(0, 142, 155,1);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #navbar {
 	overflow: hidden;
-	background-color: rgba(151, 171, 172, 0.84);
+	background-color: rgba(0, 142, 155,1);
 }
 
 #navbar a {
@@ -35,11 +35,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #navbar a:hover {
 	/*background-color: #ddd;*/
-	background: linear-gradient(170deg, #e6e8ed 0%, rgba(151, 171, 172, 0.84) 100%);
+	background: linear-gradient(170deg, #e6e8ed 0%, rgba(6, 223, 235, 0.84) 100%);
 }
 
 #navbar a.active {
-	background-color: #edd2e1;
+	background-color: #07c1fa;
 	color: white;
 }
 
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 		/*border: 1px solid #FC4CED;*/
 		/*background-color: #FC4CED;*/
 		/*background: linear-gradient(170deg, #B9DEED 0%, #1b88acd5 100%);*/
-		background: linear-gradient(170deg, #edd2e1 0%, rgba(31, 80, 243, 0.5) 100%);
+		background: linear-gradient(170deg, rgba(0, 142, 155,1) 0%, rgba(0, 142, 155,1) 100%);
 		padding-bottom: 1em;
 }
 
@@ -241,13 +241,13 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 6em 4em 3em;
 	/*background: linear-gradient(170deg, rgba(237, 147, 200, 0.49) 0%, rgba(172, 131, 164, 0.61) 100%);*/
 	/*background-color: rgba(172, 131, 164, 0.61);*/
-	background-color:  #edd2e1;
+	background-color:  rgba(0, 142, 155,1);
 }
 
 #work h2 {
 	/*background: linear-gradient(170deg, #eda99e 0%, rgba(172, 115, 130, 0.84) 100%);*/
 	/*color:  #EDFF00FF;*/
-	color: #767779;
+	color: #EDFF00FF;
 	margin-bottom: .7em;
 }
 
@@ -264,7 +264,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .details h3 {
-	color: #738182;
+	color: white;
 	text-transform: uppercase;
 }
 
@@ -274,17 +274,17 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 2em 0 -0.1em;
 	font-family: "Maven pro", sans-serif;
 	font-weight: 500;
-	color: #49e2ff;
+	color: white;
 
 }
 
 .details i {
-	color: #fc8d74;
+	color: white;
 	margin-right: 1em;
 }
 
 .details p {
-	color: #738182;
+	color: white;
 	font-family: "Maven pro", sans-serif;
 	font-weight: 500;
 	font-size: 1.2em;
@@ -338,7 +338,7 @@ h1, h2, h3, h4, h5, h6 {
 #teaching .dwnld-button:hover {
 	cursor: pointer;
 	padding: .8em 2.7em;
-	background-color: #0081CF;
+	background-color: rgba(0, 142, 155,1);
 }
 
 #teaching .dwnld-button:active,
@@ -365,7 +365,7 @@ h1, h2, h3, h4, h5, h6 {
 /*** Footer Call-to-action ***/
 #footer-cta {
 	/*background-color: rgba(172, 131, 164, 0.61);*/
-	background-color:  #edd2e1;
+	background-color:  rgba(0, 142, 155,1);
 	/*background: linear-gradient(170deg, rgba(237, 147, 200, 0.49) 0%, rgba(172, 131, 164, 0.61) 100%);*/
 	padding: 6em 4em 5.6em;
 }
