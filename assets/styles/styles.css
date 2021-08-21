@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #navbar {
 	overflow: hidden;
-	background-color: rgba(0, 142, 155,1);
+	background-color: rgba(6, 181, 143, 0.762);
 }
 
 #navbar a {
@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #experience i {
-	color: #008E9B;
+	color: #8A8A8B;
 	font-size: 5em;
 }
 
