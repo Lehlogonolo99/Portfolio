@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #navbar {
 	overflow: hidden;
-	background-color: rgba(6, 181, 143, 0.762);
+	background-color: rgba(151, 171, 172, 0.84);
 }
 
 #navbar a {
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #navbar a.active {
-	background-color: #07c1fa;
+	background-color: rgba(151, 171, 172, 0.84);
 	color: white;
 }
 
@@ -200,7 +200,7 @@ h1, h2, h3, h4, h5, h6 {
 #experience {
 	/*background: linear-gradient(170deg, rgba(172, 92, 161, 0.5)  0%, #edd2e1 100%);*/
 	/*background: linear-gradient(170deg, rgba(213, 184, 249, 0.68) 0%, rgba(0, 142, 155,1) 100%);*/
- 	background-color: rgba(0, 142, 155,1);
+ 	background-color: rgba(151, 171, 172, 0.84);
 	padding: 6em 4em 5.6em;
 }
 
@@ -210,12 +210,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #experience .tag-line {
-	color: white;
+	color: #274C77;
 	font-size: 1.4em;
 }
 
 #experience i {
-	color: #8A8A8B;
+	color: #274C77;
 	font-size: 5em;
 }
 
@@ -224,14 +224,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .experience-topics p {
-	color: #ACAEB2;
+	color:  #848282;
 	font-family: "Maven pro", sans-serif;
 	/*font-weight: 500;*/
 }
 
 .experience-topics ul li {
 	list-style: none;
-	color: #36383c;
+	color:  #274C77;
 	font-family: "Maven pro", sans-serif;
 	font-weight: lighter;
 }
@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
 #work h2 {
 	/*background: linear-gradient(170deg, #eda99e 0%, rgba(172, 115, 130, 0.84) 100%);*/
 	/*color:  #EDFF00FF;*/
-	color: #EDFF00FF;
+	color: white;
 	margin-bottom: .7em;
 }
 
