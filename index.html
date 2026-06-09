@@ -1,190 +1,343 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1" />
-        <title>Lehlogonolo M Portfolio</title>
-         	<!-- Favicon -->
-	    <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lehlogonolo Mmadi | Cloud Engineer & EKS SME</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">LM</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-	    <script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
-	    <link rel="stylesheet" href="bower_components/foundation-sites/dist/css/foundation.min.css">
-	    <link rel="stylesheet" href="">
-	    <script src="bower_components/foundation-sites/dist/js/foundation.min.js" charset="utf-8"></script>
-	    <script src="bower_components/normalize-css/normalize.css" charset="utf-8"></script>
-	    <script src="bower_components/typed.js/dist/typed.min.js" charset="utf-8"></script>
-	    <script src="bower_components/jqcloud2/dist/jqcloud.min.js" charset="utf-8"></script>
-	    <link rel="stylesheet" href="bower_components/jqcloud2/dist/jqcloud.min.css">
-	    <script src="bower_components/custombox/dist/custombox.min.js"></script>
-	    <link href="bower_components/custombox/dist/custombox.min.css" rel="stylesheet">
-	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-	    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500" rel="stylesheet">
-	    <link rel="stylesheet" href="assets/fonts/foundation-icons/foundation-icons.css">
-	    <link rel="stylesheet" href="assets/styles/styles.css">
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1>Lehlogonolo M. Mmadi</h1>
+                <h2>Cloud Support Engineer at AWS</h2>
+                <p class="hero-subtitle">Amazon EKS Subject Matter Expert | DevOps & Containers Specialist</p>
+                <p class="hero-description">
+                    I operate and troubleshoot production container workloads on AWS for enterprise customers.
+                    My focus areas are Kubernetes (EKS), infrastructure as code, CI/CD pipelines, and observability.
+                    6+ years at Amazon Web Services.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#experience" class="btn btn-secondary">View Experience</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/profile.png" alt="Lehlogonolo Mmadi">
+            </div>
+        </div>
+    </section>
 
-	    <script>
-	    	window.onscroll = function() {myFunction()};
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>
+                    I am a Cloud Support Engineer at Amazon Web Services based in Cape Town, South Africa.
+                    I specialize in containers, Kubernetes, and DevOps tooling on AWS. I am a recognized
+                    Amazon EKS Subject Matter Expert (SME), helping enterprise customers design, deploy,
+                    and troubleshoot production Kubernetes workloads at scale.
+                </p>
+                <p>
+                    My daily work involves deep-diving into complex networking issues, VPC CNI configurations,
+                    CI/CD pipeline failures, and container orchestration problems. I work with technologies including
+                    Amazon EKS, ECS, Fargate, Terraform, ArgoCD, Prometheus, and Grafana.
+                </p>
+                <p>
+                    I hold multiple AWS certifications and additional credentials in data streaming (Confluent),
+                    multi-cloud networking (Aviatrix), and graph APIs (Apollo GraphQL). I am currently pursuing a
+                    Bachelor of Science in Mathematics and Computer Science alongside a Postgraduate Diploma in IT.
+                </p>
+            </div>
+        </div>
+    </section>
 
-	    	var navbar = document.getElementById("navbar");
-	    	var sticky = navbar.offsetTop;
+    <section id="experience" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Dec 2021 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Cloud Support Engineer I</h3>
+                        <p class="timeline-company">Amazon Web Services | Cape Town, South Africa</p>
+                        <ul>
+                            <li>Provide technical support and architecture guidance to enterprise customers running containers on AWS with emphasis on reliability and best practices</li>
+                            <li>Operate and troubleshoot Amazon EKS, ECS, Fargate, and AWS Batch workloads in production environments</li>
+                            <li>Serve as EKS Subject Matter Expert, resolving complex Kubernetes networking, VPC CNI, and cluster upgrade issues</li>
+                            <li>Design and improve CI/CD workflows using ArgoCD, GitLab, CodeCommit, CodeBuild, CodeDeploy, and CodePipeline</li>
+                            <li>Implement monitoring and tracing solutions using CloudWatch, Managed Prometheus, Managed Grafana, App Mesh, X-Ray, and ADOT</li>
+                            <li>Automate infrastructure using Terraform and AWS CDK</li>
+                            <li>Script automation tooling with Bash, Python, and PowerShell</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Aug 2020 - Dec 2021</div>
+                    <div class="timeline-content">
+                        <h3>Cloud Support Associate (Deployment)</h3>
+                        <p class="timeline-company">Amazon Web Services | Cape Town, South Africa</p>
+                        <ul>
+                            <li>Supported customer deployments and migrations to AWS using infrastructure as code and deployment pipelines</li>
+                            <li>Guided customers on availability, security, and operational best practices</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Feb 2020 - Jul 2020</div>
+                    <div class="timeline-content">
+                        <h3>Cloud Support Graduate (Deployment)</h3>
+                        <p class="timeline-company">Amazon Web Services | Cape Town, South Africa</p>
+                        <ul>
+                            <li>Completed AWS technical training program focused on deployment services and cloud operations</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Aug 2019 - Jan 2020</div>
+                    <div class="timeline-content">
+                        <h3>Intern</h3>
+                        <p class="timeline-company">The Digital Academy | Johannesburg, South Africa</p>
+                        <ul>
+                            <li>Developed integrations and applications using NodeJS</li>
+                            <li>Delivered Best Solution of the Cohort</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	    	function myFunction() {
-		    	if (window.pageYOffset >= sticky) {
-		    		navbar.classList.add("sticky")
-		    	} else {
-		    		navbar.classList.remove("sticky");
-		    	}
-		    }
-	    </script>   
-    </head>
-    <body>
-            <div id="navbar">
-                    <a class="active" href="#pic">Home</a>
-                    <a href="#experience">Experience</a>
-                    <a href="#work">Projects</a>
-            <!--		<a href="https://github.com/Lehlogonolo99/Portfolio/raw/master/public_CV.pdf" target="_blank">PDF.</a>-->
-                    <a href="#teaching" target="_blank">CV</a>
-			</div> 
-			<div class="wrapper">
-				<section id="about" class="color col-3 ss-style-inczigzag">
-					<div class="row">
-						<div class="small-12 large-8 large-offset-2 columns text-center">
-							<div id="pic" class="profile-photo" style="background-image: url(assets/images/hlogi.jpg);">
-							</div>
-							<div class="details">
-								<h2>Hi, I'm Lehlogonolo. <br> <span id="writing-text"></span></h2>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="small-12 column">
-							<div class="cta text-center">
-								<a class="my-button cta-button expand form-button" href="mailto:lehlogonolommadi99@gmail.com">Get In Touch</a>
-							</div>
-						</div>
-						<div class="small-12 column">
-							<div class="my-arrow-div text-center">
-								<a href="https://github.com/lehlogonolo99"><i class="fa fa-github-alt fa-2x"></i></a>
-								<a href="https://instagram.com/lehlogonolommadi"><i class="fa fa-instagram fa-2x"></i></a>
-								<a href="https://twitter.com/mmadihlogi"><i class="fa fa-twitter fa-2x"></i></a>
-								<a href="https://wa.me/+27798477092"><i class="fa fa-whatsapp fa-2x"></i></a>
-							</div>
-						</div>
-					</div>
-		
-				</section>
-				<section id="experience">
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Container Orchestration</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Kubernetes (EKS)</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Amazon ECS</span>
+                        <span class="tag">AWS Fargate</span>
+                        <span class="tag">AWS Batch</span>
+                        <span class="tag">Microservices</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Infrastructure as Code</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Terraform</span>
+                        <span class="tag">AWS CDK</span>
+                        <span class="tag">CloudFormation</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>CI/CD & GitOps</h3>
+                    <div class="skill-tags">
+                        <span class="tag">ArgoCD</span>
+                        <span class="tag">GitLab CI</span>
+                        <span class="tag">AWS CodePipeline</span>
+                        <span class="tag">CodeBuild</span>
+                        <span class="tag">CodeDeploy</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Monitoring & Observability</h3>
+                    <div class="skill-tags">
+                        <span class="tag">CloudWatch</span>
+                        <span class="tag">Prometheus</span>
+                        <span class="tag">Grafana</span>
+                        <span class="tag">AWS X-Ray</span>
+                        <span class="tag">ADOT</span>
+                        <span class="tag">App Mesh</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Networking</h3>
+                    <div class="skill-tags">
+                        <span class="tag">TCP/IP</span>
+                        <span class="tag">DNS</span>
+                        <span class="tag">VPC</span>
+                        <span class="tag">VPC CNI</span>
+                        <span class="tag">Load Balancing</span>
+                        <span class="tag">Routing & Switching</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Programming & Scripting</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Bash</span>
+                        <span class="tag">PowerShell</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">NodeJS</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Data & Streaming</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Apache Kafka</span>
+                        <span class="tag">Confluent</span>
+                        <span class="tag">Databricks</span>
+                        <span class="tag">Amazon RDS</span>
+                        <span class="tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Security & Identity</h3>
+                    <div class="skill-tags">
+                        <span class="tag">AWS Secrets Manager</span>
+                        <span class="tag">Keycloak</span>
+                        <span class="tag">IAM</span>
+                        <span class="tag">IRSA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					<div class="row column">
-						<div class="small-12">
-							<h2 class="text-center">My Experience</h2>
-							<p class="text-center tag-line">  </p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="small-12 medium-4 columns text-center experience-topics">
-							<i class="fi-laptop"></i>
-							<h3>Front-end</h3>
-							<ul>
-								<li>HTML</li>
-								<li>CSS</li>
-								<li>Javascript</li>
-							</ul>
-						</div>
-		
-						<div class="small-12 medium-4 columns text-center experience-topics">
-							<i class="fi-list-thumbnails"></i>
-							<h3>More Skills</h3>
-							<ul>
-								<li>C/C++</li>
-								<li>Python</li>
-								<li>JAVA</li>
-								<li>Data analysis</li>
-								<li>NodeJs</li>
-								<li>SQL</li>
-                                                                <li>Kubernetes</li>
-								<li>Docker</li>
+    <section id="certifications" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="credly-grid">
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="9ae1789d-fb9b-45ea-9b50-80399482c891" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="7ed2e4e4-130a-4464-a1d8-55db33255161" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="27642287-406b-43b9-8a7a-dd5ae8e62cab" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="88aeb218-34be-4d0b-bf20-eb516e47f145" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c015d2af-a8d9-46f2-8028-0d16f3bc8591" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2b88b5c4-6369-4d65-840a-ef8fd8da0694" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8c474b1f-7b65-4119-803b-cdad0df4231c" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a562f933-5164-4e47-8862-a8bfbbd2248a" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="413be03e-5f6f-4fc0-bd20-f86f573477e7" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="9bfe00f7-48a1-4cb8-9885-f8d451cfe8ff" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="231b4e22-a97b-4f3f-aaae-9207c822a160" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="e3694899-be57-4bb4-8580-0f2e81871fda" data-share-badge-host="https://www.credly.com"></div>
+            </div>
+            <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+            <h3 class="subsection-title">Other Credentials</h3>
+            <div class="cert-grid">
+                <a href="https://www.apollographql.com/tutorials/certifications/010f2a22-4150-428c-a1ad-0d435cd039d0" target="_blank" class="cert-card-link">
+                    <div class="cert-card">
+                        <img src="assets/badges/apollo-graph-associate.svg" alt="Apollo Graph Developer Associate" class="cert-img">
+                        <h4>Graph Developer - Associate</h4>
+                        <p>Apollo GraphQL</p>
+                    </div>
+                </a>
+                <a href="https://certificates.confluent.io/e4efaf18-f9a9-47c6-a64f-7b2dd44b33ee#acc.v9JBIDs3" target="_blank" class="cert-card-link">
+                    <div class="cert-card">
+                        <img src="assets/badges/confluent-data-streaming.png" alt="Confluent Data Streaming Engineer" class="cert-img">
+                        <h4>Data Streaming Engineer</h4>
+                        <p>Confluent</p>
+                    </div>
+                </a>
+                <a href="https://credentials.databricks.com/dd690d1b-aab7-40c1-9cfc-6a8460eb3cce#acc.12crtPdW" target="_blank" class="cert-card-link">
+                    <div class="cert-card">
+                        <img src="assets/badges/databricks-1.webp" alt="Databricks" class="cert-img">
+                        <h4>Databricks Academy Accreditation</h4>
+                        <p>Databricks</p>
+                    </div>
+                </a>
+                <a href="https://credentials.databricks.com/b61f1d78-130e-4df2-8140-e5bff508aa8d#acc.8wPifBAo" target="_blank" class="cert-card-link">
+                    <div class="cert-card">
+                        <img src="assets/badges/databricks-2.svg" alt="Databricks" class="cert-img">
+                        <h4>Databricks Academy Accreditation</h4>
+                        <p>Databricks</p>
+                    </div>
+                </a>
+                <a href="https://credentials.databricks.com/539d2a91-60bc-4347-93d7-2287e8e7ac4c#acc.rjI2canP" target="_blank" class="cert-card-link">
+                    <div class="cert-card">
+                        <img src="assets/badges/databricks-3.png" alt="Databricks" class="cert-img">
+                        <h4>Databricks Academy Accreditation</h4>
+                        <p>Databricks</p>
+                    </div>
+                </a>
+                <div class="cert-card">
+                    <img src="assets/badges/csi-linux.jpg" alt="CSI Linux" class="cert-img">
+                    <h4>CSI Linux Certified Investigator</h4>
+                    <p>CSI Linux | Feb 2026</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-							</ul>
-						</div>
-						<div class="small-12 medium-4 columns text-center experience-topics">
-							<i class="fi-star"></i>
-							<h3>Tools</h3>
-							<ul>
-								<li> JetBrains PyCharm</li>
-								<li> JetBrains IntelliJ</li>
-								<li>VS-Code</li>
-								<li>Sublime Text</li>
-		
-							</ul>
-						</div>
-					</div>
-		
-				</section>
-				<section id="work">
-					<h2 class="text-center">PROJECT</h2>
-					<div class="row work-row">
-						 <div class="small-12 medium-6 medium-push-6 columns">
-							<img src="assets/images/nandi.PNG" alt="">
-							<img src="assets/images/nandi1.PNG" alt="">
-						</div>
-						<div class="small-12 medium-5 medium-pull-7 columns">
-							<div class="details details-ftm">
-								<h3>Nandi ChatBot</h3>
-								<p class="platform">Mobile</p>
-								<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
-								<p>In a group of 4 we developed a ChatBot integraded with Telegram. Nandi is a chatbot that integrates NLP and Deep Learning technology, to serve as a
-									24/7 service consultant, that helps ABSA customers with questions in regards to
-									ABSA's loans and accounts; informing customers about product features and what's
-									required for one to be deemed as eligible for a product.</p>
-							</div>
-						</div>
-					</div>
-				</section>
-				<section class="cv" id="teaching">
-					<!--			 <a class="my-button" target="_blank" href="https://github.com/Lehlogonolo99/Portfolio/raw/master/public_CV.pdf">Download CV</a>-->
-								<div id="row work-row">
-									<h2 class="text-center">CV/Resume Profile</h2>
-									<br>
-									<p> <span> <a class="dwnld-button" target="_blank" href="https://github.com/Lehlogonolo99/Portfolio/raw/master/Lehlogonolo's Resume(2).pdf"> Download CV</a> </span> </p>
-								</div>
-					
-								 <object class="row work-row" id="resume" data="https://drive.google.com/file/d/1GH-NMAESwXX9c-qQh22vwrbg1tsmr5nV/view" width="600" height="900"></object>
-							 </section>
-					
-							<section id="footer-cta">
-								<h2 class="text-center">Wanna work with me?</h2>
-								<p></p>
-								<div class="row text-center">
-									<div class="small-12 medium-8 medium-offset-2 columns">
-										<p class="text-center"> For any inquiries or to get in touch with me.</p>
-									</div>
-									<div class="small-12 columns" id="startButtonDiv">
-										<a class="my-button form-button" href="mailto:lehlogonolommadi99@gmail.com">Contact Me</a>
-									</div>
-								</div>
-							</section>
-							<footer id="footer">
-								<div class="row text-center">
-					
-									<div class="small-12 medium-6 medium-offset-3 columns">
-										<div class="my-arrow-div text-center">
-					
-										<span> <a class="sn-button" target="_blank" href="linkedin.com/in/lehlogonolo-mashitishi-996a0a134">LinkedIn <i id="btn" class="fa fa-linkedin"></i> </a></span> <br>
-										 <span> <a class="sn-button" target="_blank" href="https://github.com/lehlogonolo99">GitHub <i id="btn" class="fa fa-github-alt fa-2x"></i> </a></span> <br>
-										<span> <a class="sn-button" target="_blank" href="https://twitter.com/mmadihlogi"> Twitter <i id="btn" class="fa fa-twitter fa-2x"></i> </a></span> <br>
-										</div>
-										<br>
-										<p id="logo">LM</p>
-										<p id="copyright">Copyright &copy; 2023 | Lehlogonolo  Mmadi</p>
-									</div>
-								</div>
-							</footer>
-					
-						</div>
-						<script src="assets/scripts/app.js" charset="utf-8"></script>
-			</div>       
-    </body>
-</html>    
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="edu-card">
+                    <img src="assets/badges/unisa.jpg" alt="UNISA" class="edu-img">
+                    <h4>Bachelor of Science</h4>
+                    <p class="edu-field">Mathematics and Computer Science</p>
+                    <p class="edu-school">University of South Africa</p>
+                    <p class="edu-date">2024 - 2027 (In progress)</p>
+                </div>
+                <div class="edu-card">
+                    <img src="assets/badges/tut.png" alt="TUT" class="edu-img">
+                    <h4>Postgraduate Diploma</h4>
+                    <p class="edu-field">Information Technology</p>
+                    <p class="edu-school">Tshwane University of Technology</p>
+                    <p class="edu-date">2024 - 2026 (In progress)</p>
+                </div>
+                <div class="edu-card">
+                    <img src="assets/badges/tut.png" alt="TUT" class="edu-img">
+                    <h4>Advanced Diploma</h4>
+                    <p class="edu-field">IT: Communication Networks</p>
+                    <p class="edu-school">Tshwane University of Technology</p>
+                    <p class="edu-date">2022 - 2023</p>
+                </div>
+                <div class="edu-card">
+                    <img src="assets/badges/tut.png" alt="TUT" class="edu-img">
+                    <h4>National Diploma</h4>
+                    <p class="edu-field">IT: Communication Networks</p>
+                    <p class="edu-school">Tshwane University of Technology</p>
+                    <p class="edu-date">2017 - 2020</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-text">
+                Interested in working together or have a question? Feel free to reach out.
+            </p>
+            <div class="contact-links">
+                <a href="mailto:lehlogonolommadi99@gmail.com" class="contact-item">
+                    <span class="contact-label">Email</span>
+                    <span>lehlogonolommadi99@gmail.com</span>
+                </a>
+                <a href="https://www.linkedin.com/in/lehlogonolo-mmadi" target="_blank" class="contact-item">
+                    <span class="contact-label">LinkedIn</span>
+                    <span>linkedin.com/in/lehlogonolo-mmadi</span>
+                </a>
+                <a href="https://github.com/Lehlogonolo99" target="_blank" class="contact-item">
+                    <span class="contact-label">GitHub</span>
+                    <span>github.com/Lehlogonolo99</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Lehlogonolo Mmadi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
